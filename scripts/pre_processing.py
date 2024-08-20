@@ -1,4 +1,4 @@
-######################   Final Assignment   ######################
+#############################   Final Assignment   ##############################
 
 # Di seguito, riporto il codice utilizzato per importare e pulire il dataframe originale. Questo ha previsto:
 #                              - l'importazione del dataframe originale;
