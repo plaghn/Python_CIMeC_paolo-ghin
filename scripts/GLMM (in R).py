@@ -1,6 +1,10 @@
 #############################   Final Assignment   ##############################
 
-#Di seguito, riporto il codice utilizzato per eseguire un GLMM. 
+#Di seguito, riporto il codice utilizzato per eseguire un GLMM. Questo ha previsto:
+#                             - testare la normalità dei dati con Istogrammi e Q-Q plot;
+#                             - eseguire test di Shapiro-Wilk e Kolmogorov-Smirnov;
+#                             - attivare ambiente R dove imporare il dataframe ed eseguire il GLMM;
+#                             - eseguire contrasti con correzzione di Bonferroni.
 
 
 # Istogramma e grafico della densità per verifica normalità
