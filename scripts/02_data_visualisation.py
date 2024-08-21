@@ -2,7 +2,7 @@
 
 # Di seguito, riporto il codice per la visualizzazione dei dati:
 #                 - la variabile dipendente è l'accuratezza (media);
-#                 - le variabili indipendenti sono la condizioen (a due livelli) e il training (a 3 livelli)
+#                 - le variabili indipendenti sono la condizione (a due livelli) e il tipo di training (a 3 livelli)
 
 
 # Calcolare l'accuratezza media per Fase, Condizione e Training
