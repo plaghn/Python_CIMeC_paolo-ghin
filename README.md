@@ -10,7 +10,7 @@ Questo progetto ha lo scopo di verificare l'impatto di rappresentazioni grafiche
 Il progetto adotta un disegno between-subjects nel quale sono stati manipolati il tipo di task (due livelli: stimare il PPV o stimare il NPV) e il tipo di training (tre livelli: una rappresentazione dinamica con feedback; una rappresentazione testuale con colori e feedback; una rappresentazione testuale senza colori e senza feedback). Si è sviluppato in quattro fasi che si sono svolte in diversi giorni per indagare gli effetti a breve e lungo termine del training. 
 
 # Analisi
-E' stati applicato un Generalized Linear Mixed Model (GLMM), seguito dall'analisi dei contrasti con correzione di Bonferroni.
+E' stato applicato un Generalized Linear Mixed Model (GLMM), seguito dall'analisi dei contrasti con correzione di Bonferroni.
 
 # Risultati
 I risultati sollevano dubbi sulla possibilità che la componente dinamica di un training possa essere di grande aiuto. 
