@@ -5,4 +5,4 @@ Nella cartella 'figures' riporto i grafici realizzati attraverso gli script pres
 - il file 'Q-Q_Plot_Accuracy' riporta il grafico Q-Q plot realizzato per verificare la normalità dei dati 'Accuracy';
 - il file 'lineplot' riporta il grafico realizzato per rappresentare l'accuratezza ('Accuracy') media nelle quattro diverse fasi dello studio. 
   Ogni linea, differenziata per colore in base alla condizione del gruppo ('Condition': 1 = PPV; 2 = NPV) e per stile in base al tipo di training 
-  ('Training': 1 = training con video; 2 = training con solo testo; 3 = no training).
+  ('Training': 1 = training con solo testo; 2 = training con video; 3 = no training)
