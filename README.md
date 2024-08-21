@@ -15,6 +15,7 @@ E' stato applicato un Generalized Linear Mixed Model (GLMM), seguito dall'analis
 ## Risultati
 I risultati sollevano dubbi sulla possibilità che la componente dinamica di un training possa essere di grande aiuto. 
 
+
 # INSTALLAZIONE
 Questo progetto richiede sia Python che R, e include dipendenze per entrambi i linguaggi.
 
@@ -33,6 +34,13 @@ Clona il repository con il seguente comando:
 
 ```bash
 git clone https://github.com/plaghn/Python_CIMeC_paolo-ghin
+```
+
+## Accedere alla Directory
+Entra nella directory del progetto attraverso:
+
+```bash
+cd Python_CIMeC_paolo-ghin
 ```
 
 ## d. Installare i pacchetti Python necessari
