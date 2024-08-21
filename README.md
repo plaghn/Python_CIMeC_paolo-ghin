@@ -19,7 +19,7 @@ I risultati sollevano dubbi sulla possibilità che la componente dinamica di un 
 Questo progetto richiede sia Python che R, e include dipendenze per entrambi i linguaggi.
 
 ## a. Installare R
-Se non hai già R installato, puoi scaricalo dal sito ufficiale di R(https://www.r-project.org/).
+Se non hai già R installato, puoi scaricalo dal sito ufficiale di R (https://www.r-project.org/).
 
 ## b. Installare pacchetti R necessari
 Esegui il seguente comando per installare i pacchetti R:
