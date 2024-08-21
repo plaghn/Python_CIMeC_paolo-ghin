@@ -1,6 +1,6 @@
 #############################   Final Assignment   ##############################
 
-Nella cartella 'figures' riporto i grafici realizzati attraverso gli script presenti nella cartella 'scripts). Nello specifico:
+Nella cartella 'figures' riporto i grafici realizzati attraverso gli script presenti nella cartella ('scripts'). Nello specifico:
 - il file 'Istogramma_Accuracy' riporta il grafico realizzato per rappresenare la distribuzione dei dati 'Accuracy' e verificarne la normalità;
 - il file 'Q-Q_Plot_Accuracy' riporta il grafico Q-Q plot realizzato per verificare la normalità dei dati 'Accuracy';
 - il file 'lineplot' riporta il grafico realizzato per rappresentare l'accuratezza ('Accuracy') media nelle quattro diverse fasi dello studio. 
