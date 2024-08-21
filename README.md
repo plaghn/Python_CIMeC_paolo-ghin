@@ -36,14 +36,14 @@ Clona il repository con il seguente comando:
 git clone https://github.com/plaghn/Python_CIMeC_paolo-ghin
 ```
 
-## Accedere alla Directory
+## d. Accedere alla Directory
 Entra nella directory del progetto attraverso:
 
 ```bash
 cd Python_CIMeC_paolo-ghin
 ```
 
-## d. Installare i pacchetti Python necessari
+## e. Installare i pacchetti Python necessari
 Installa le dipendenze tramite:
 
 ```bash
