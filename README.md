@@ -28,14 +28,14 @@ Esegui il seguente comando per installare i pacchetti R:
 install.packages(c("lme4", "emmeans"), dependencies = TRUE)
 ```
 
-## Clonare il Repository
+## c. Clonare il Repository
 Clona il repository con il seguente comando:
 
 ```bash
 git clone https://github.com/plaghn/Python_CIMeC_paolo-ghin
 ```
 
-## Installare i pacchetti Python necessari
+## d. Installare i pacchetti Python necessari
 Installa le dipendenze tramite:
 
 ```bash
