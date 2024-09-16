@@ -1,7 +1,6 @@
 ################   Pacchetti necessari per l'esecuzione dello script   ###############
 
 
-
 matplotlib==3.9.2
 numpy==1.23.5
 openpyxl==3.1.3

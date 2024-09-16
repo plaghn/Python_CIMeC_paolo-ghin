@@ -13,13 +13,14 @@
 import pandas as pd
 
 # Importare DataFrame
-df = pd.read_excel(r"C:\Users\ghinp\Desktop\Nuova cartella\Dataframe_Originale.xlsx")
+df = pd.read_excel(r"/Users/vigji/Downloads/Dataframe_Originale.xlsx")
 
 # Stampare DataFrame Originale
 print("Initial DataFrame:")
 print(df)
 
 # Tenere solo le colonne utili per le analisi
+
 selected_columns = ['Condition','Training','Duration_P1','Duration_P2','Duration_P3','Order_P1','Order_Training','Order_P2','FL_367_DO','FL_373_DO','AccQ1_P1','AccQ2_P1','AccQ3_P1','AccQ4_P1','AccQ1_P2','AccQ2_P2','AccQ3_P2','AccQ4_P2','AccQ1_P3','AccQ2_P3','AccQ3_P3','AccQ4_P3','AccQ5_P3','AccQ6_P3','AccQ7_P3','AccQ8_P3']
 
 # Creare un nuovo DataFrame con solo le colonne selezionate
@@ -85,6 +86,7 @@ data_long = pd.melt(
 )
 
 #Sistemare formati variabili
+# LP: this could have been done in a loop!
 data_long['Subject_ID'] = data_long['Subject_ID'].astype('category')
 data_long['Condition'] = data_long['Condition'].astype('category')
 data_long['Training'] = data_long['Training'].astype('category')
@@ -95,6 +97,7 @@ data_long['Accuracy'] = data_long['Accuracy'].astype(int)
 print(data_long.dtypes)
 
 # Mappare le fasi a etichette (P1: Fase 1, P2: Fase 2, etc.)
+# This could also have been streamlined in a loop, but it's taste!
 phase_mapping = {
     'AccQ1_P1': 'Fase 1', 'AccQ2_P1': 'Fase 1', 'AccQ3_P1': 'Fase 1', 'AccQ4_P1': 'Fase 1',
     'AccQ1_P2': 'Fase 2', 'AccQ2_P2': 'Fase 2', 'AccQ3_P2': 'Fase 2', 'AccQ4_P2': 'Fase 2',
@@ -106,3 +109,7 @@ data_long['Phase'] = data_long['Phase'].map(phase_mapping)
 
 # Verificare il risultato
 print(data_long)
+
+# LP: note that if you are not working in spyder, you should save your data somehow, so that you can use it in the next script!
+# Do not assume that the workspace (variable space) can be directly shared across scripts.
+data_long.to_csv(r"/Users/vigji/Downloads/Dataframe_Pre_Processed.csv", index=False)

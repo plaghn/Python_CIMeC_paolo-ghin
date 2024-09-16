@@ -4,8 +4,16 @@
 #                 - la variabile dipendente è l'accuratezza (media);
 #                 - le variabili indipendenti sono la condizione (a due livelli) e il tipo di training (a 3 livelli)
 
+# LP: in the same way, make sure that each script is self-contained, and does not make assumptions about the existence of variables in the global scope,
+# and does not assume we have all the libraries already loaded!
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 # Calcolare l'accuratezza media per Fase, Condizione e Training
+# LP follows from the previous script
+data_long = pd.from_csv(r"/Users/vigji/Downloads/Dataframe_Pre_Processed.csv")
+
 mean_accuracy = data_long.groupby(['Phase', 'Condition', 'Training'])['Accuracy'].mean().reset_index()
 
 # Impostare la dimensione della figura
